@@ -1,0 +1,79 @@
+.header-nav {
+  background-color: #000;
+  top: 0;
+  width: 100%;
+  font-size: 16px;
+  font-family: RazerF5;
+  border-bottom: 1px solid #44d62c;
+}
+
+.nav-items-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1220px;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 3.75rem;
+}
+
+.logo-sm {
+  width: 35px;
+  height: 35px;
+}
+
+.nav-items {
+  width: 77%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #888;
+}
+
+.nav-icons {
+  display: flex;
+  width: 8%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.nav-items-container a svg {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 770px) {
+  .nav-items-container {
+    padding: 0 15px 0 10px;
+    height: 49px;
+  }
+  .nav-items {
+    display: none;
+  }
+
+  .search-icon {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline;
+  }
+
+  .nav-icons {
+    width: auto;
+  }
+
+  .cart-icon {
+    width: 28px;
+  }
+  .cart-icon svg {
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,162 @@
+/* Reusable Promo Card Styling */
+.promo-card-container {
+  background-repeat: no-repeat;
+  background-position: center 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: calc(50% - 6px);
+  height: 570px;
+  background-size: cover;
+}
+
+.promo-card-content-container {
+  margin-top: 54px;
+  text-align: center;
+  color: #fff;
+  font-family: RazerF5;
+  text-transform: uppercase;
+  max-width: 90%;
+  padding: 0 10px;
+}
+
+.promo-card-content-container h3 {
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+.promo-card-content-container p {
+  font-size: 21px;
+  margin-top: 12px;
+}
+
+.promo-card-links-container {
+  margin-top: 13.5px;
+}
+
+.promo-card-links-container a {
+  font-family: RazerF5;
+  text-transform: capitalize;
+  font-size: 17px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.promo-card-links-container a:last-child {
+  margin-left: 28px;
+}
+
+.promo-card-links-container a::after {
+  content: ">";
+  margin-left: 6px;
+  color: #44d62c;
+}
+
+/* Promo-1 Styles */
+
+.promo-one-container {
+  background-image: url(../../assets/promos/fujin-pro-b-950x580-desktop.webp);
+}
+
+/* Promo-2 Styles */
+
+.promo-two-container {
+  background-image: url(../../assets/promos/mercury-blade16-blade18-b-950x580-desktop.webp);
+}
+
+/* Promo-3 Styles */
+.promo-three-container {
+  background-image: url(../../assets/promos/dolce&gabbana-launch-b-950x580-desktop.webp);
+}
+
+/* Promo-4 Styles */
+
+.promo-four-container {
+  background-image: url(../../assets/promos/global-esports-awards-b-950x580-desktop.webp);
+}
+
+/* Promo-5 Styles */
+
+.promo-five-container {
+  background-image: url(../../assets/promos/sneki-snek-b-950x580-desktop.webp);
+}
+
+/* Promo-6 Styles */
+
+.promo-six-container {
+  background-image: url(../../assets/promos/ebonus-card-b-950x580-desktop.webp);
+}
+
+/* Promo Card Queries */
+
+@media screen and (max-width: 1070px) {
+  .promo-card-container {
+    height: 490px;
+  }
+  .promo-card-content-container h3 {
+    font-size: 32px;
+  }
+
+  .promo-card-content-container p {
+    font-size: 19px;
+  }
+
+  .promo-card-links-container a {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .promo-card-container {
+    width: 100%;
+    height: 570px;
+  }
+}
+
+/* Promo 1 Queries */
+
+@media screen and (max-width: 770px) {
+  .promo-one-container {
+    background-image: url(../../assets/promos/fujin-pro-b-480x615-mobile.webp);
+  }
+}
+
+/* Promo 2 Queries */
+
+@media screen and (max-width: 770px) {
+  .promo-two-container {
+    background-image: url(../../assets/promos/mercury-blade16-blade18-b-480x615-mobile.webp);
+  }
+}
+
+/* Promo 3 Queries */
+
+@media screen and (max-width: 770px) {
+  .promo-three-container {
+    background-image: url(../../assets/promos/dolce&gabbana-launch-b-480x615-mobile.webp);
+  }
+}
+
+/* Promo 4 Queries */
+
+@media screen and (max-width: 770px) {
+  .promo-four-container {
+    background-image: url(../../assets/promos/global-esports-awards-b-480x615-mobile.webp);
+  }
+}
+
+/* Promo 5 Queries */
+
+@media screen and (max-width: 770px) {
+  .promo-five-container {
+    background-image: url(../../assets/promos/sneki-snek-b-480x615-mobile.webp);
+  }
+}
+
+/* Promo 6 Queries */
+
+@media screen and (max-width: 770px) {
+  .promo-six-container {
+    background-image: url(../../assets/promos/ebonus-card-b-480x615-mobile.webp);
+  }
+}

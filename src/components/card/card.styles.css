@@ -1,0 +1,148 @@
+/* Reusable Card Styling */
+.card-container {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  height: 700px;
+  background-size: cover;
+}
+
+.card-content-container {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.card-content-container h2 {
+  font-family: RazerF5;
+  text-transform: uppercase;
+  font-size: 56px;
+  color: #fff;
+}
+
+.card-content-container p {
+  font-family: RazerF5;
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-top: 4px;
+  color: #fff;
+}
+
+.card-links-container {
+  margin-top: 13.5px;
+}
+
+.card-links-container a {
+  font-family: RazerF5;
+  font-size: 21px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.card-links-container a::after {
+  content: ">";
+  margin-left: 6px;
+  color: #44d62c;
+}
+
+/* Section-1 Styles */
+.section-one-container {
+  background-image: url(../../assets/hero/holiday-gift-guide-2023-homepage-large-2x.webp);
+}
+
+/* Section-2 Styles */
+.section-two-container {
+  background-image: url(../../assets/hero/razer-immersive-campaign-homepage-desktop2x.webp);
+}
+
+/* Section-3 Styles */
+.section-three-container {
+  background-image: url(../../assets/hero/razer-blade16-lamborghini-homepage-desktop2x.webp);
+}
+
+.section-three-content {
+  color: #1d1d1f;
+  margin-top: 0;
+}
+
+.section-three-content h2::before {
+  display: block;
+  content: "Razer.com EXCLUSIVE";
+  width: 70px;
+  margin: 25px auto;
+  background-color: #ff9c07;
+  font-size: 0.875rem;
+  padding: 0.3em 1em;
+  text-align: left;
+  font-family: robotto;
+
+  color: #000;
+}
+.section-three-content h2::first-line {
+  font-size: 0.6rem;
+}
+
+.section-three-container a:last-child {
+  margin-left: 35px;
+}
+
+/* Card Qeueries */
+
+@media screen and (max-width: 1070px) {
+  .card-container {
+    height: 617px;
+  }
+
+  .card-content-container h2 {
+    font-size: 48px;
+  }
+
+  .card-content-container p {
+    font-size: 24px;
+  }
+
+  .card-links-container a {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .card-container {
+    height: 587px;
+  }
+
+  .card-content-container h2 {
+    font-size: 32px;
+  }
+
+  .card-content-container p {
+    font-size: 19px;
+  }
+
+  .card-links-container a {
+    font-size: 17px;
+  }
+}
+
+/* Section-1 Qeueries */
+@media screen and (max-width: 770px) {
+  .section-one-container {
+    background-image: url(../../assets/hero/holiday-gift-guide-2023-small-2x.webp);
+  }
+}
+
+/* Section-2 Qeueries */
+@media screen and (max-width: 770px) {
+  .section-two-container {
+    background-image: url(../../assets/hero/razer-immersive-campaign-homepage-mobile2x.webp);
+  }
+}
+
+/* Section-3 Qeueries */
+
+@media screen and (max-width: 770px) {
+  .section-three-container {
+    background-image: url(../../assets/hero/razer-blade16-lamborghini-homepage-mobile2x.webp);
+  }
+}
